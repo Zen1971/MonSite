@@ -13,6 +13,12 @@ p{
 }
 h1{
     font-family: 'lobster', cursive;
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
+    color: #e4e7f0;
+    padding: 150px;
+    background: linear-gradient(to right,#000046,#1cb5e0);
 }
+/* body{
+    background-color: #e4e7f0;
+} */

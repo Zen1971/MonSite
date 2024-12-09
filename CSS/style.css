@@ -1,9 +1,10 @@
 body{
     font-family: 'manrope', sans-serif;
     font-size: 1em;
+    background-color: #1F2039;
 }
 a{
-    color: black;
+    color: #242424;
     text-decoration: none;
 }
 em{
@@ -15,9 +16,21 @@ h1{
     font-size: 3.5em;
     color:#A5B4FC;
 }
-p{
+h2{
+    color: #f9f8ff;
+}
+p,li{
     font-size: 1.1em;
+    color: #f9f8ff;;
 }
 .retour_Accueil{
     color: red;
 }
+.header, .footer{
+   background-color: white; 
+}
+.cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    font-family: 'manrope', sans-serif;
+  }
