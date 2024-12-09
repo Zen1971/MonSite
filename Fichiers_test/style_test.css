@@ -1,0 +1,18 @@
+p{
+    color:royalblue;
+    font-size: 2em;
+    font-style: italic;
+}
+.ma-classe{
+    color:black;
+}
+.ma-classe2{
+    color:red;
+    font-weight: 700;
+    text-decoration: underline;
+}
+h1{
+    font-family: 'lobster', cursive;
+    font-size: 3em;
+    text-align: center;
+}
