@@ -27,10 +27,24 @@ p,li{
     color: red;
 }
 .header, .footer{
-   background-color: white; 
+   background-color: white;
 }
 .cta {
     background: linear-gradient(#8e86b5, #acaeed);
-    color: white;
     font-family: 'manrope', sans-serif;
+    border-radius: 50px;
+  }
+  a:hover{   
+    text-decoration: underline;
+  }
+  .cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  }
+  .carre-liste{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+  }
+  .lien-icone:hover {
+    opacity: 0.5;
   }
