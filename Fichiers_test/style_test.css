@@ -2,6 +2,10 @@ p{
     color:royalblue;
     font-size: 2em;
     font-style: italic;
+    background-color: #F1C864;
+    text-align: justify;
+    margin: 50px;
+    padding: 50px;
 }
 .ma-classe{
     color:black;
