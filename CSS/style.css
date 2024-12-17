@@ -123,7 +123,56 @@
   .accueil-introduction {
     display: flex;
     flex-direction: row;
-    width: 50%;
-    align-items: center;
+    width: 60%;
+    align-items: flex-start;
     margin: auto;
+  }
+  .accueil-introduction div {
+    padding-right: 80px;
+  }
+  .grid-paysages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  .grid-portraits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  .grid-paysages img, .grid-portraits img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .portfolio-section-photos {
+    background-color: white;
+  }
+  .portfolio-section-photos h2 {
+    color: #242424;
+    margin-bottom: 20px;
+  }
+  .lien-conteneur-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
   }
