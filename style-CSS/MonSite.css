@@ -12,11 +12,10 @@
     color: #242424;
     text-decoration: none;
   }
-/*enlever le style de l'em
   em {
     color: #a5b4fc;
     font-style: normal;
-  } */
+  }
   
   h1 {
     font-size: 3.5em;
@@ -36,7 +35,7 @@
   
   header,
   footer {
-    background-color: rgba(255, 255, 255, 0.611);
+    background-color: white;
     padding: 20px 50px;
   }
   

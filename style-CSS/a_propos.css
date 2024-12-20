@@ -36,7 +36,7 @@ li {
 
 header,
 footer {
-  background-color: rgba(255, 255, 255, 0.611);
+  background-color: white;
   padding: 20px 50px;
 }
 
@@ -81,7 +81,7 @@ a:hover {
 }
 
 section {
-  padding: 80px;
+  padding: 60px;
 }
 
 .a-propos-main {
@@ -99,4 +99,39 @@ nav {
 
 nav a {
   margin-left: 30px;
+}
+
+table {
+  color:white; 
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #a5b4fc;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+caption {
+  font-size: 1.5em;
+  color:white;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: bold;
+}
+ td{
+display: table-cell;
+vertical-align: inherit;
+unicode-bidi: isolate;
+}
+ th{
+padding-block: 20px;
+}
+main{
+  display: block;
+  unicode-bidi: isolate;
 }
