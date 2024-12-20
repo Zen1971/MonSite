@@ -22,10 +22,12 @@ h1 {
   font-size: 3.5em;
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 h2 {
   color: #f9f8ff;
+  text-align: center;
 }
 
 p,
@@ -66,10 +68,15 @@ a:hover {
   opacity: 0.5;
 }
 
-.carre-contenu {
+.carre-contenu{
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
   padding: 50px;
+  margin-bottom: 80px;
+}
+
+.carre-contenu + div{
+  text-align: center;
 }
 
 .carre-contenu h2 {
@@ -120,7 +127,7 @@ caption {
   color:white;
   font-family: 'Manrope', sans-serif;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   font-weight: bold;
 }
  td{
@@ -129,7 +136,7 @@ vertical-align: inherit;
 unicode-bidi: isolate;
 }
  th{
-padding-block: 20px;
+padding-block: 15px;
 }
 main{
   display: block;
