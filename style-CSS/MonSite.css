@@ -1,6 +1,6 @@
-* {
+/* * {
     margin: 0;
-  }
+  } */
   
   body {
     font-family: 'Manrope', sans-serif;
@@ -18,7 +18,7 @@
   }
   
   h1 {
-    font-size: 3.5em;
+    font-size: 2em;
     color: #a5b4fc;
     font-family: 'Montserrat', sans-serif;
   }
@@ -218,3 +218,4 @@ input[type='submit'] {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
 }
+

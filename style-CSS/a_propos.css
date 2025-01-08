@@ -19,7 +19,7 @@ em {
 } */
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2em;
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -141,4 +141,13 @@ padding-block: 15px;
 main{
   display: block;
   unicode-bidi: isolate;
+}
+@media screen and (max-width: 1024px) {
+  caption{
+    display: none;
+  }
+  table{
+    display: none;
+  }
+  
 }
