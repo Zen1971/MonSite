@@ -27,7 +27,7 @@ h1 {
 
 h2 {
   color: #f9f8ff;
-  text-align: center;
+  margin-bottom: 30px;
 }
 
 p,
@@ -72,6 +72,8 @@ a:hover {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
   padding: 50px;
+  width: 50%;
+  margin: auto;
   margin-bottom: 80px;
 }
 
@@ -92,8 +94,7 @@ section {
 }
 
 .a-propos-main {
-  width: 50%;
-  margin: auto;
+ margin: auto;
 }
 
 footer,
@@ -142,12 +143,22 @@ main{
   display: block;
   unicode-bidi: isolate;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 996px) {
   caption{
     display: none;
   }
   table{
     display: none;
   }
-  
+}
+@media screen and (max-width: 996px) {
+  section, .carre-contenu{
+      padding: 50px 20px 50px 0px;
+  }
+}
+@media screen and (max-width: 996px) {
+  header, footer, nav {
+      padding: 50px 20px 50px 0px;
+      flex-direction: column;
+  }
 }
